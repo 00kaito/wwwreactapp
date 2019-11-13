@@ -1,0 +1,33 @@
+
+.projects {
+width: 50%;
+height: 100%;
+}
+
+.projects ul {
+display: flex;
+height: 100%;
+align-content: flex-start;
+align-items: flex-start;
+}
+
+.projects li {
+display: block;
+padding: 15px 0;
+width: 100%;
+min-height: 50px;
+}
+
+.project_icons i{
+    padding: 5px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #333;
+}

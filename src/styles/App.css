@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* font-family: 'Righteous', cursive; */
+  /* font-family: 'Amatic SC', cursive; */
+
+
+  html {
+    font-size: 10px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  }
+
+  @media(max-width: 360px) {
+    html {
+      font-size: 30px;
+
+    }
+  }
+
+  body {
+    background-color: #fff;
+    /* height: 200vh; */
+
+  }
+
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+  }
+
+  .h2 {
+    display: block;
+    font-size: 35px;
+    line-height: 100px;
+    background-color: white;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+
+  }
+
+  .header {
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(0);
+    -webkit-filter: blur(8);
+    position: relative;
+    height: 100vh;
+    max-width: 100%;
+    width: 100vw;
+    background-position: center;
+    animation: blureffect 3s;
+    animation-iteration-count: 1;
+    transition: 2s;
+
+
+  }
+
+  @keyframes blureffect {
+    0% {
+      filter: blur(12);
+    }
+
+    10% {
+      filter: blur(10);
+    }
+
+    20% {
+      filter: blur(8px);
+    }
+
+    40% {
+      filter: blur(5px);
+    }
+
+    60% {
+      filter: blur(2px);
+    }
+
+    80% {
+      filter: blur(1px);
+    }
+
+    100% {
+      filter: blur(0px);
+    }
+
+    100% {
+      filter: blur(0);
+    }
+  }
+
+  /* SCAN LINES */
+  @keyframes parpadeoScanlines {
+    0% {
+      opacity: 0.5;
+    }
+
+    50% {
+      opacity: 0.8;
+    }
+  }
+
+  .scanlines {
+    pointer-events: none;
+    animation: 0.2s normal parpadeoScanlines infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.2) 70%, rgba(0, 0, 0, 0.6));
+    background-size: 100% 0.35rem;
+    z-index: 2;
+  }
+
+  #overlayer {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 1);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    animation: transparency .5s 1.5s forwards;
+  }
+
+  @keyframes transparency {
+    from {
+      background-color: rgba(0, 0, 0, 1);
+    }
+
+    to {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  header::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(transparentize(#121010, 1) 50%, transparentize(darken(#121010, 10), 0.75) 50%), linear-gradient(90deg, transparentize(#ff0000, 0.94), transparentize(#00ff00, 0.98), transparentize(#0000ff, 0.94));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    animation: flicker 0.15s infinite;
+
+  }
+
+  .fire {
+    position: absolute;
+    z-index: 5;
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+    left: calc(50vw - 640px);
+    top: calc(50vh - 360px);
+    background-image: none;
+  }
+
+  .fire {
+    z-index: 5;
+    background-size: cover;
+    background-image: url("http://00kaito.usermd.net/anim-opt.png");
+    -webkit-animation: play 4.5s steps(49);
+    -moz-animation: play 4.5s steps(49);
+    -ms-animation: play 4.5s steps(49);
+    -o-animation: play 4.5s steps(49);
+    animation: play 4.5s steps(49);
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+  }
+
+  .notshow {
+    /* display: none; */
+  }
+
+  .text {
+    font-family: 'Righteous', cursive;
+
+    color: #fff;
+    display: block;
+    --text-block-dim: 400px;
+    height: var(--text-block-dim);
+    width: var(--text-block-dim);
+    margin: 0 auto;
+    margin-top: calc(50vh - var(--text-block-dim)/2);
+    position: relative;
+  }
+
+  .slog1 {
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    font-size: 5rem;
+  }
+
+  .slog2 {
+    z-index: 2;
+
+
+  }
+
+  .slog3 {
+    z-index: 2;
+    position: absolute;
+    top: 201px;
+    left: 40px;
+    font-size: 7rem;
+  }
+
+  @-webkit-keyframes play {
+    from {
+      background-position: 0px;
+    }
+
+    to {
+      background-position: -62720px;
+    }
+  }
+
+
+  /* GLITCH */
+  .glitch {
+    z-index: 2;
+    position: absolute;
+    top: 150px;
+    line-height: 82%;
+    font-size: 10rem;
+    right: 0;
+  }
+
+  @keyframes noise-anim {
+    0% {
+      clip: rect(50px, 100vw, 150px, 0);
+    }
+
+    1% {
+      clip: rect(50px, 100vw, 150px, 0);
+    }
+
+    5% {
+      clip: rect(50px, 100vw, 150px, 0);
+    }
+
+    6% {
+      clip: rect(0, 100vw, 0, 0);
+
+    }
+
+    100% {
+      clip: rect(0px, 100vw, 0px, 0);
+    }
+
+  }
+
+  .glitch:after {
+    content: attr(data-text);
+    position: absolute;
+    left: 5px;
+    text-shadow: -1px 0 red;
+    color: white;
+    background: black;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim-2 1.5s infinite linear alternate-reverse;
+  }
+
+  @keyframes noise-anim-2 {
+    0% {
+      clip: rect(150px, 100vw, 200px, 0);
+    }
+
+    1% {
+      clip: rect(150px, 100vw, 200px, 0);
+    }
+
+    5% {
+      clip: rect(150px, 100vw, 200px, 0);
+    }
+
+    11% {
+      clip: rect(0, 100vw, 0, 0);
+
+    }
+
+    25% {
+      clip: rect(0, 100vw, 0, 0);
+    }
+
+    31% {
+      clip: rect(100px, 100vw, 200px, 0);
+    }
+
+    35% {
+      clip: rect(150px, 100vw, 200px, 0);
+    }
+
+    36% {
+      clip: rect(100px, 100vw, 115px, 0);
+
+    }
+
+    40% {
+      clip: rect(150px, 100vw, 170px, 0);
+
+    }
+
+    41% {
+      clip: rect(0, 100vw, 0, 0);
+    }
+
+    100% {
+      clip: rect(0, 100vw, 0, 0);
+    }
+
+  }
+
+  .glitch:before {
+    content: attr(data-text);
+    position: absolute;
+    left: -5px;
+    color: white;
+    background: black;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim 2s infinite linear alternate-reverse;
+  }

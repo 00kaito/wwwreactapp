@@ -1,0 +1,27 @@
+.progressbar{
+  margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+
+}
+.progressbar .wrapper{
+  width: 80%;
+  border: 1px solid black;
+}
+
+.progressbar em{
+  position: absolute;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 1.12em;
+    line-height: 100%;
+}
+
+.progress{
+  height: 30px;
+  background-color: red;
+}
