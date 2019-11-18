@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wwwreactapp/static/css/main.95810558.chunk.css",
+    "main.js": "/wwwreactapp/static/js/main.4f9d906a.chunk.js",
+    "main.js.map": "/wwwreactapp/static/js/main.4f9d906a.chunk.js.map",
+    "runtime-main.js": "/wwwreactapp/static/js/runtime-main.c6743c3b.js",
+    "runtime-main.js.map": "/wwwreactapp/static/js/runtime-main.c6743c3b.js.map",
+    "static/js/2.321e8bbf.chunk.js": "/wwwreactapp/static/js/2.321e8bbf.chunk.js",
+    "static/js/2.321e8bbf.chunk.js.map": "/wwwreactapp/static/js/2.321e8bbf.chunk.js.map",
+    "index.html": "/wwwreactapp/index.html",
+    "precache-manifest.c6c4b9abbac5356902ffc1df52078c56.js": "/wwwreactapp/precache-manifest.c6c4b9abbac5356902ffc1df52078c56.js",
+    "service-worker.js": "/wwwreactapp/service-worker.js",
+    "static/css/main.95810558.chunk.css.map": "/wwwreactapp/static/css/main.95810558.chunk.css.map",
+    "static/media/Header.css": "/wwwreactapp/static/media/bg.4b20d07a.jpg",
+    "static/media/resume.png": "/wwwreactapp/static/media/resume.4bd967cb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6743c3b.js",
+    "static/js/2.321e8bbf.chunk.js",
+    "static/css/main.95810558.chunk.css",
+    "static/js/main.4f9d906a.chunk.js"
+  ]
+}
