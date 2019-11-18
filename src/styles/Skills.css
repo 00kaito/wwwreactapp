@@ -16,24 +16,17 @@
     } */
 
 
-    section .cv-builder {
+    section.cv-builder {
         max-width: 100vw;
         overflow: hidden;
+        font-size: 15px;
+
+
       }
-  
-      @media(min-width: 1025px) {
-        .cv-builder {
-          font-size: 15px;
-          animation:
-            come-in 1s .5s forwards;
-        }
-  
-      }
-  
   
       section {
         display: flex;
-        height: 100vh;
+        min-height: 50vh;
       }
   
   
@@ -61,16 +54,37 @@
         font-size: 18px;
         font-weight: bold;
         border-top: 1px solid transparent;
-        transition: .1s;
+        transition: .3s;
       }
   
       .skills li:hover {
-        border: 3px solid grey;
+        border: 3px solid #333;
         cursor: pointer;
       }
 
       .skills li.active{
-        background-color: yellow;
+        /* background-color: yellow; */
         border-top-width: 10px;
       }
   
+      @media (max-width: 600px) {
+
+        section{
+          flex-direction: column;
+          
+        }
+
+        .wrapper .h2{
+          padding-top: 20px;
+            font-size: 24px;
+            line-height: 60px;
+        }
+          .skills{
+            width: 100%;
+          }
+
+          .skills li.active{
+            background-color: yellow;
+            border-top-width: 3px;
+          }
+      }

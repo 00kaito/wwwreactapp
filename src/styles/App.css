@@ -6,3 +6,25 @@
   padding:0;
   box-sizing: border-box;
 }
+
+.h2 {
+  display: block;
+  font-size: 35px;
+  line-height: 100px;
+  background-color: white;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.h2white{
+  display: block;
+  font-size: 35px;
+  line-height: 100px;
+  background-color: #333;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+

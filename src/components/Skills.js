@@ -9,7 +9,7 @@ class Skills extends Component {
         const skillsList = skills
             .map(skill => <li name={skill.name}
                 key={skill.name} className={skill.active ? 'active' : ''}
-                onMouseOver={this.props.handleClick}>{skill.name}</li>);
+                onMouseOver={this.props.handleHover}>{skill.name}</li>);
         const currentSkill = this.props.currentSkill;
         const widthStyle = currentSkill != undefined && { width: currentSkill.progressValue + "%" };
 

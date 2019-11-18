@@ -20,6 +20,7 @@
     }
   }
 
+
   body {
     background-color: #fff;
     /* height: 200vh; */
@@ -35,16 +36,6 @@
     font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
   }
 
-  .h2 {
-    display: block;
-    font-size: 35px;
-    line-height: 100px;
-    background-color: white;
-    color: #333;
-    text-transform: uppercase;
-    text-align: center;
-
-  }
 
   .header {
     box-sizing: border-box;
@@ -61,7 +52,6 @@
     background-position: center;
     animation: blureffect 3s;
     animation-iteration-count: 1;
-    transition: 2s;
 
 
   }
@@ -181,10 +171,6 @@
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
 
-  }
-
-  .notshow {
-    /* display: none; */
   }
 
   .text {
@@ -339,3 +325,34 @@
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim 2s infinite linear alternate-reverse;
   }
+
+  @media(max-width: 500px) {
+    html {
+      font-size: 30px;
+    }
+
+    .slog1, .slog3{
+      font-size: 2rem;
+    }
+
+    .slog2{
+      font-size: 3rem;
+      margin-right: 10%;
+    }
+  }
+
+  @media(max-width: 360px) {
+    html {
+      font-size: 30px;
+    }
+
+    .slog1, .slog3{
+      font-size: 2rem;
+    }
+
+    .slog2{
+      font-size: 3rem;
+      margin-right: 25%;
+    }
+  }
+

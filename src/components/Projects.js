@@ -8,12 +8,12 @@ const Projects = (props) => {
                 <li key={item.name}>
                     <div className='project_desc'>
                         <h4>{item.name}</h4>
-                        <em>{item.technologies.toString()}</em>
+                        <em>{item.technologies.map(item => " " + item).toString()}</em>
                     </div>
                     <div className='project_icons'>
-                        <a href="#" target="_blank"><i class="fab fa-git-square"></i></a>
-                        <a href="#" target="_blank"><i class="fas fa-plus"></i></a>
-                        <a href="#" target="_blank"><i class="fas fa-search"></i></a>
+                        <a href={item.url} target="_blank"><i class="fab fa-git-square"></i></a>
+                        {/* <a href="#" target="_blank"><i class="fas fa-plus"></i></a> */}
+                        <a onClick={() => alert('detailed project description under construction...')} target="_blank"><i class="fas fa-search"></i></a>
                     </div>
                 </li >
             )

@@ -1,5 +1,5 @@
 .progressbar{
-  margin-top: 50px;
+  margin: 50px 0;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -23,5 +23,5 @@
 
 .progress{
   height: 30px;
-  background-color: red;
+  background-color: yellowgreen;
 }

@@ -1,0 +1,101 @@
+.bio-wrapper{
+  background-color: #525252;
+  min-height: 30vh;
+
+}
+.bio{
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 70vw;
+  font-size: 2em;
+}
+
+.bio a{
+  text-decoration: none;
+  color: white;
+}
+
+.bio a:hover{
+  border: none;
+}
+
+.bio-image{
+  height: 100%;
+  width: 40%;
+  padding: 30px;
+  text-align: center;
+}
+
+.bio-image img{
+  display: block;
+  margin: 0 auto;  
+  max-width: 100%;
+  transition: .2s;
+}
+
+.bio-image img:hover{
+  cursor: pointer;
+  transform: rotate(20deg);
+}
+
+.bio-desc{
+  height: 100%;
+  width: 80%;
+  padding: 30px;
+}
+
+.bio-desc ul{
+  padding: 30px;
+  list-style: none;
+}
+.bio i{
+  margin-right: 10px;
+}
+
+.bio-desc li{
+  padding: 5px 0;
+}
+
+
+@media(max-width: 600px) {
+  .bio{
+  flex-direction: column;
+}
+
+  .bio {
+    max-width: 100vw;
+    font-size:2em;
+    padding: 0 10px;
+  }
+
+  .bio-image{
+    width: 100%;
+    padding: 0;
+  }
+  
+  .bio-desc{
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .bio-desc ul{
+    padding: 10px;
+  }
+
+  .bio li{
+    font-size: 1.2em;
+  }
+
+  @media(max-width: 400px) {
+    .bio {
+      font-size:.8em;
+    }
+    .bio li{
+      font-size: 0.7em;
+    }
+
+  }
+}
