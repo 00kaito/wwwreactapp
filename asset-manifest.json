@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/wwwreactapp/static/css/main.95810558.chunk.css",
-    "main.js": "/wwwreactapp/static/js/main.4f9d906a.chunk.js",
-    "main.js.map": "/wwwreactapp/static/js/main.4f9d906a.chunk.js.map",
-    "runtime-main.js": "/wwwreactapp/static/js/runtime-main.c6743c3b.js",
-    "runtime-main.js.map": "/wwwreactapp/static/js/runtime-main.c6743c3b.js.map",
-    "static/js/2.321e8bbf.chunk.js": "/wwwreactapp/static/js/2.321e8bbf.chunk.js",
-    "static/js/2.321e8bbf.chunk.js.map": "/wwwreactapp/static/js/2.321e8bbf.chunk.js.map",
-    "index.html": "/wwwreactapp/index.html",
-    "precache-manifest.c6c4b9abbac5356902ffc1df52078c56.js": "/wwwreactapp/precache-manifest.c6c4b9abbac5356902ffc1df52078c56.js",
-    "service-worker.js": "/wwwreactapp/service-worker.js",
-    "static/css/main.95810558.chunk.css.map": "/wwwreactapp/static/css/main.95810558.chunk.css.map",
-    "static/media/Header.css": "/wwwreactapp/static/media/bg.4b20d07a.jpg",
-    "static/media/resume.png": "/wwwreactapp/static/media/resume.4bd967cb.png"
+    "main.css": "/about/static/css/main.cb5ba76b.chunk.css",
+    "main.js": "/about/static/js/main.89fa92b7.chunk.js",
+    "main.js.map": "/about/static/js/main.89fa92b7.chunk.js.map",
+    "runtime-main.js": "/about/static/js/runtime-main.bc994d1e.js",
+    "runtime-main.js.map": "/about/static/js/runtime-main.bc994d1e.js.map",
+    "static/js/2.4855e31c.chunk.js": "/about/static/js/2.4855e31c.chunk.js",
+    "static/js/2.4855e31c.chunk.js.map": "/about/static/js/2.4855e31c.chunk.js.map",
+    "index.html": "/about/index.html",
+    "precache-manifest.7860973e504fa4286d6bfa31509438b2.js": "/about/precache-manifest.7860973e504fa4286d6bfa31509438b2.js",
+    "service-worker.js": "/about/service-worker.js",
+    "static/css/main.cb5ba76b.chunk.css.map": "/about/static/css/main.cb5ba76b.chunk.css.map",
+    "static/media/bednarz-przemyslaw19__cv.pdf": "/about/static/media/bednarz-przemyslaw19__cv.84c92338.pdf",
+    "static/media/Header.css": "/about/static/media/bg.4b20d07a.jpg",
+    "static/media/resume.png": "/about/static/media/resume.4bd967cb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c6743c3b.js",
-    "static/js/2.321e8bbf.chunk.js",
-    "static/css/main.95810558.chunk.css",
-    "static/js/main.4f9d906a.chunk.js"
+    "static/js/runtime-main.bc994d1e.js",
+    "static/js/2.4855e31c.chunk.js",
+    "static/css/main.cb5ba76b.chunk.css",
+    "static/js/main.89fa92b7.chunk.js"
   ]
 }
